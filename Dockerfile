@@ -6,7 +6,7 @@ LABEL maintainer="Nabendu Maiti <1206581+nmaiti@users.noreply.github.com>" \
     alpine-version="3.12"                                    \
     build="16-Sep-2020"
 
-ADD files/run.sh /scripts/run.sh
+ADD mdb_files/run.sh /scripts/run.sh
 
 RUN apk add --no-cache mariadb mariadb-client mariadb-server-utils pwgen \
     && rm -f /var/cache/apk/*                                            \
