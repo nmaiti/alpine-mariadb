@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/nmaiti/alpine-mariadb/actions/workflows/docker-image.yml/badge.svg)](https://github.com/nmaiti/alpine-mariadb/actions/workflows/docker-image.yml)
+
 # alpine-mariadb
 
 This [docker image](https://hub.docker.com/repository/docker/nbmaiti/alpine-mariadb) based
