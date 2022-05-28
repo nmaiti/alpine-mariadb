@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.16
 
 LABEL maintainer="Nabendu Maiti <1206581+nmaiti@users.noreply.github.com>" \
     architecture="arm32v7/armhf"                             \
